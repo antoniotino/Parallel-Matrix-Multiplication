@@ -1,7 +1,7 @@
 ## Parallel Matrix Multiplication 
 
 ### Problema
-Sviluppare un programma C che utilizza MPI per fornire una soluzione al seguente problema: Moltiplicando la matice A di grandezza m x n con la matrice B di grandezza n x l si ottiene la matrice C di grandezza m x l.
+Sviluppare un programma C che utilizza MPI per fornire una soluzione al seguente problema: Moltiplicando la matrice A di grandezza m x n con la matrice B di grandezza n x l si ottiene la matrice C di grandezza m x l.
 
 ### Soluzione
 La soluzione da me proposta prevede che il master non partecipi a calcolare le righe della matrice C, ma aspetti le righe calcolate dai worker e assembli la matrice C. Dunque se il numero di processori è 1, ovvero il master, quest'ultimo effettua l'operazione in modo sequenziale. 
