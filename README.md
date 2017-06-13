@@ -15,12 +15,12 @@ Il master riassembla la matrice C e stampa il risultato.
 ### Strong Scaling
 Questo test è stato effettuato su un numero crescente di istanze (da 1 a 8) StarCluster AMI ami-52a0c53b (Linux Ubuntu), dove, fissata la taglia della matrice a 3100x3100, ad ogni istanza aggiunta si aumentava il numero di processori nell'esecuzione.
 
-![Grafico](Strong.png)
+![Grafico](img/Strong.png)
 
 ### Weak Scaling
 Questo test è stato effettuato su un numero crescente di istanze (da 1 a 8) StarCluster AMI ami-52a0c53b (Linux Ubuntu), dove, fissata la taglia di 100 righe per ogni processore, ad ogni istanza aggiunta si aumentava il numero di processori nell'esecuzione e quindi si aumentava la taglia della matrice di 100.
 
-![Grafico](Weak.png)
+![Grafico](img/Weak.png)
 
 ### Compilazione
 ```

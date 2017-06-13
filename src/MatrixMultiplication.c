@@ -143,7 +143,7 @@ int main(int argc, char* argv[]){
 			}
 		}
 
-		/* Print of the matrix C
+		/* Print of the matrix C*/
 		printf("MATRIX C\n");
 		fflush(stdout);
 		for (row = 0; row < N; row++) {
@@ -151,7 +151,7 @@ int main(int argc, char* argv[]){
 				printf("%d", C[row][col]);
 			printf("\n");
 		}
-		printf("**********\n");*/
+		printf("**********\n");
 
 		/*Release the resource*/
 		free(C);
